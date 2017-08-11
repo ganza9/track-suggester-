@@ -9,11 +9,11 @@ This course selector is for people to find out which coding track will be best s
 
 ## Setup/Installation Requirements
 
-Go to https://github.com/ganza9/track-selector-/ and click on the clone or download button, copy the link to your clipboard, open Terminal, make sure you are on the desktop, type git clone and paste the URL, press enter, open the folder on your desktop, open the index.HTML page.
+Go to https://github.com/ganza9/track-suggester-/ and click on the clone or download button, copy the link to your clipboard, open Terminal, make sure you are on the desktop, type git clone and paste the URL, press enter, open the folder on your desktop, open the index.HTML page.
 
 OR
 
-In a web browser, you can visit https://ganza9.github.io/track-selector-/
+In a web browser, you can visit https://ganza9.github.io/track-suggester-/
 
 
 
