@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8">
     <title>Coding Track</title>
   </head>
@@ -17,23 +17,22 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
 
-    <!-- <h2>C#</h2>
+    <!-- <h2 class='answer'>C#</h2>
     <p id='cResult'>
       C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.
     </p>
 
-    <h2>Ruby</h2>
+    <h2 class='answer'>Ruby</h2>
     <p id='rubyResult'>
       Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.
     </p>
 
-    <h2>Java</h2>
+    <h2 class='answer'>Java</h2>
     <p id='javaResult'>
       Java is also a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.
     </p> -->
 
   <form id="q1" type="text" class"form-control">
-         <!-- QUESTION1 -->
        <p>
          <p>
            Where would you like to work?
@@ -53,7 +52,6 @@
 
 
   <form id="q2" type="text" class"form-control">
-         <!-- QUESTION1 -->
        <p>
          <p>
            Would you like to
@@ -72,7 +70,6 @@
        </form>
 
    <form id="q3" type="text" class"form-control">
-          <!-- QUESTION1 -->
         <p>
           <p>
             What companies intrest you the most?
@@ -91,7 +88,6 @@
         </form>
 
     <form id="q4" type="text" class"form-control">
-           <!-- QUESTION1 -->
          <p>
            <p>
              You like things that are...
@@ -109,7 +105,6 @@
     </form>
 
    <form id="q5" type="text" class"form-control">
-          <!-- QUESTION1 -->
         <p>
           <p>
             You hear "Dont You (Forget About Me)" playing in the background. You:
@@ -124,6 +119,7 @@
             <input type="radio" name="question" value="java" class="java">Freeze frame air punch.</input>
           </div>
         </p>
+        <button class="btn btn-secondary btn-lg btn-block" onclick="getResult()">Get Result!</button>
     </form>
   </div>
   </body>
