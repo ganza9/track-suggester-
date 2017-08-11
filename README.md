@@ -13,7 +13,7 @@ Go to https://github.com/ganza9/track-selector-/ and click on the clone or downl
 
 OR
 
-In a web browser, you can visit https://ganza9.github.io/track-selector/
+In a web browser, you can visit https://ganza9.github.io/track-selector-/
 
 
 
