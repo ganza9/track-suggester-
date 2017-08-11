@@ -1,6 +1,7 @@
 
 h1  {
   font-family: 'Alfa Slab One', cursive;
+  text-align: center;
 }
 
 h3 {
@@ -16,6 +17,11 @@ p {
 }
 
 .btn {
-  background-color: red;
+  background-color: #00b3b4;
   color; black;
+  margin-bottom: 10px;
+}
+
+.jumbotron {
+  background-color: #00b3b4;
 }
