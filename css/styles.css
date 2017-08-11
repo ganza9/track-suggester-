@@ -1,15 +1,21 @@
-.answer {
-  display: none;
+
+h1  {
+  font-family: 'Alfa Slab One', cursive;
 }
 
-p #cresult {
-  display: none;
+h3 {
+  font-family: 'Metrophobic', sans-serif;
 }
 
-p #rubyresult {
-  display: none;
+p {
+  font-family: 'Metrophobic', sans-serif;
 }
 
-p #javaresult {
-  display: none;
+.radio {
+  font-family: 'Metrophobic', sans-serif;
+}
+
+.btn {
+  background-color: red;
+  color; black;
 }
