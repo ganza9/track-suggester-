@@ -51,6 +51,6 @@ function getResult() {
 
   else if(c = java = ruby)
   {
-    alert("You should take the Intro to Programming course! Each week of Intro to Programming will cover a new set of concepts, tools and objectives. In addition to learning new skills, you will find that you are learning a whole new technical language, as well, with new terminology at every turn. Do not feel the need to memorize any code or vocabulary as you go through lessons. Daily practice will reinforce the concepts and skills that you need to be successful. Some things that are covered are; HTML and CSS: The presentation and styling languages of the web , Git: The tool programmers use to track their code , Command line: The tool programmers use to interact with their computers , Markdown: A simple language for documents , JavaScript: The programming language of the web , jQuery: A JavaScript library for making interactive web pages ,Bootstrap: A framework for easily creating good-looking websites.")
+    alert("You should take the Intro to Programming course! Each week of Intro to Programming will cover a new set of concepts, tools and objectives. In addition to learning new skills, you will find that you are learning a whole new technical language, as well, with new terminology at every turn. Do not feel the need to memorize any code or vocabulary as you go through lessons. Daily practice will reinforce the concepts and skills that you need to be successful. ")
   }
 }
